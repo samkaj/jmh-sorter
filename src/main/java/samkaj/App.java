@@ -9,6 +9,7 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 public class App {
+  // Small change
   public static void main(String[] args) throws RunnerException {
     Options opt = new OptionsBuilder()
                       .include(App.class.getSimpleName())
