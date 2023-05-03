@@ -1,0 +1,2 @@
+buildTool: maven
+options: "-wi 2 -i 2 -f 1"
