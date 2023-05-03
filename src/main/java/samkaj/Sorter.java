@@ -4,6 +4,7 @@ public class Sorter {
 
   /**
    * Takes an integer array and returns a sorted version of it.
+   * It does this in O(n^2) complexity.
    */
   public int[] sort(int[] toSort) {
     int[] sorted = toSort.clone();
